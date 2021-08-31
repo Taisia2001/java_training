@@ -20,7 +20,7 @@ public class Model {
         this.attempts = new ArrayList<>();
     }
 
-    private int setSecretNumber() {
+    public int setSecretNumber() {
         return (int) (Math.random() * (DEFAULT_MAX_RANGE - DEFAULT_MIN_RANGE - 1)
                 + DEFAULT_MIN_RANGE);
     }
